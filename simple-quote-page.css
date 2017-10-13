@@ -4,9 +4,10 @@
 body {
   height: 100vh;
   width: 100vw;
+  background: url('assets_simple-quote-page/freedom.jpg') no-repeat center;
 }
 .wrapper {
-    background: url('assets_simple-quote-page/freedom.jpg') no-repeat center; 
+     
     height: 100vh;
     padding-top: 4rem;
     margin: 0 auto;
@@ -20,12 +21,14 @@ h1 {
   line-height: 1.5;
   text-align: center;
   border: 4rem;
- 
+  font-family: 'Julius Sans One', sans-serif;
+  color: rgba(0,0,0,0.8); 
   }
 p {
   text-align: center;
   font-size: 1.1rem;
   font-style: italic;
+  font-family: 'Crimson Text', sans-serif;
 }
 .author {
   border: 2rem;
